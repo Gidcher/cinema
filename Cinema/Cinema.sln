@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema", "Cinema\Cinema.csproj", "{77738EEC-BFBA-4E49-BABB-F124CA5E6540}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema.Data", "Cinema.Data\Cinema.Data.csproj", "{1C0CAE36-C463-4335-A241-7CC57DBB8961}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema.Service", "Cinema.Service\Cinema.Service.csproj", "{D3AF6553-3A20-4AF3-9467-B30CC133E613}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{757B032F-2E5B-4935-8653-E52134398893}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema.Infrastructure", "Cinema.Infrastructure\Cinema.Infrastructure.csproj", "{1A76727B-5D43-4C4C-A1DE-EC5516B26EB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema.Api", "Cinema.Api\Cinema.Api.csproj", "{DF55931F-AECB-4994-8D3F-C2454E3295E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema.DependencyInjection", "Cinema.DependencyInjection\Cinema.DependencyInjection.csproj", "{B5881EAB-40C9-4C6F-8BB3-076A4F63A389}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77738EEC-BFBA-4E49-BABB-F124CA5E6540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77738EEC-BFBA-4E49-BABB-F124CA5E6540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77738EEC-BFBA-4E49-BABB-F124CA5E6540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77738EEC-BFBA-4E49-BABB-F124CA5E6540}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C0CAE36-C463-4335-A241-7CC57DBB8961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C0CAE36-C463-4335-A241-7CC57DBB8961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C0CAE36-C463-4335-A241-7CC57DBB8961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C0CAE36-C463-4335-A241-7CC57DBB8961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3AF6553-3A20-4AF3-9467-B30CC133E613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3AF6553-3A20-4AF3-9467-B30CC133E613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3AF6553-3A20-4AF3-9467-B30CC133E613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3AF6553-3A20-4AF3-9467-B30CC133E613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A76727B-5D43-4C4C-A1DE-EC5516B26EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A76727B-5D43-4C4C-A1DE-EC5516B26EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A76727B-5D43-4C4C-A1DE-EC5516B26EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A76727B-5D43-4C4C-A1DE-EC5516B26EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF55931F-AECB-4994-8D3F-C2454E3295E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF55931F-AECB-4994-8D3F-C2454E3295E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF55931F-AECB-4994-8D3F-C2454E3295E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF55931F-AECB-4994-8D3F-C2454E3295E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5881EAB-40C9-4C6F-8BB3-076A4F63A389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5881EAB-40C9-4C6F-8BB3-076A4F63A389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5881EAB-40C9-4C6F-8BB3-076A4F63A389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5881EAB-40C9-4C6F-8BB3-076A4F63A389}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A76727B-5D43-4C4C-A1DE-EC5516B26EB9} = {757B032F-2E5B-4935-8653-E52134398893}
+		{DF55931F-AECB-4994-8D3F-C2454E3295E1} = {757B032F-2E5B-4935-8653-E52134398893}
+		{B5881EAB-40C9-4C6F-8BB3-076A4F63A389} = {757B032F-2E5B-4935-8653-E52134398893}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+E:\ЭФ 301\Рустам\Cinema\Cinema.Data\bin\Debug\net8.0\Cinema.Data.deps.json
+E:\ЭФ 301\Рустам\Cinema\Cinema.Data\bin\Debug\net8.0\Cinema.Data.dll
+E:\ЭФ 301\Рустам\Cinema\Cinema.Data\bin\Debug\net8.0\Cinema.Data.pdb
+E:\ЭФ 301\Рустам\Cinema\Cinema.Data\obj\Debug\net8.0\Cinema.Data.csproj.AssemblyReference.cache
+E:\ЭФ 301\Рустам\Cinema\Cinema.Data\obj\Debug\net8.0\Cinema.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\ЭФ 301\Рустам\Cinema\Cinema.Data\obj\Debug\net8.0\Cinema.Data.AssemblyInfoInputs.cache
+E:\ЭФ 301\Рустам\Cinema\Cinema.Data\obj\Debug\net8.0\Cinema.Data.AssemblyInfo.cs
+E:\ЭФ 301\Рустам\Cinema\Cinema.Data\obj\Debug\net8.0\Cinema.Data.csproj.CoreCompileInputs.cache
+E:\ЭФ 301\Рустам\Cinema\Cinema.Data\obj\Debug\net8.0\Cinema.Data.dll
+E:\ЭФ 301\Рустам\Cinema\Cinema.Data\obj\Debug\net8.0\refint\Cinema.Data.dll
+E:\ЭФ 301\Рустам\Cinema\Cinema.Data\obj\Debug\net8.0\Cinema.Data.pdb
+E:\ЭФ 301\Рустам\Cinema\Cinema.Data\obj\Debug\net8.0\ref\Cinema.Data.dll
+E:\ЭФ 301\Рустам\Cinema\Cinema.Data\bin\Debug\net8.0\Cinema.Data.runtimeconfig.json
+E:\ЭФ 301\Рустам\Cinema\Cinema.Data\obj\Debug\net8.0\Cinema.Data.genruntimeconfig.cache
