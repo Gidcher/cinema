@@ -465,11 +465,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ЭФ 301\\Рустам\\CinemaApp\\Cinema\\Cinema.Api\\Cinema.Api.csproj",
+      "projectUniqueName": "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Api\\Cinema.Api.csproj",
       "projectName": "Cinema.Api",
-      "projectPath": "E:\\ЭФ 301\\Рустам\\CinemaApp\\Cinema\\Cinema.Api\\Cinema.Api.csproj",
+      "projectPath": "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Api\\Cinema.Api.csproj",
       "packagesPath": "C:\\Users\\Rustam\\.nuget\\packages\\",
-      "outputPath": "E:\\ЭФ 301\\Рустам\\CinemaApp\\Cinema\\Cinema.Api\\obj\\",
+      "outputPath": "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rustam\\AppData\\Roaming\\NuGet\\NuGet.Config",

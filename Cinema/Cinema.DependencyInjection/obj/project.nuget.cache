@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+dTAhwvQ26Q=",
+  "dgSpecHash": "hpdSl3pIQlo=",
   "success": true,
-  "projectFilePath": "E:\\ЭФ 301\\Рустам\\CinemaApp\\Cinema\\Cinema.DependencyInjection\\Cinema.DependencyInjection.csproj",
+  "projectFilePath": "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.DependencyInjection\\Cinema.DependencyInjection.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rustam\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Rustam\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.10\\microsoft.entityframeworkcore.8.0.10.nupkg.sha512",

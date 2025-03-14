@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ЭФ 301\\Рустам\\CinemaApp\\Cinema\\Cinema.Infrastructure\\Cinema.Infrastructure.csproj": {}
+    "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Infrastructure\\Cinema.Infrastructure.csproj": {}
   },
   "projects": {
-    "E:\\ЭФ 301\\Рустам\\CinemaApp\\Cinema\\Cinema.Data\\Cinema.Data.csproj": {
+    "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Data\\Cinema.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ЭФ 301\\Рустам\\CinemaApp\\Cinema\\Cinema.Data\\Cinema.Data.csproj",
+        "projectUniqueName": "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Data\\Cinema.Data.csproj",
         "projectName": "Cinema.Data",
-        "projectPath": "E:\\ЭФ 301\\Рустам\\CinemaApp\\Cinema\\Cinema.Data\\Cinema.Data.csproj",
+        "projectPath": "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Data\\Cinema.Data.csproj",
         "packagesPath": "C:\\Users\\Rustam\\.nuget\\packages\\",
-        "outputPath": "E:\\ЭФ 301\\Рустам\\CinemaApp\\Cinema\\Cinema.Data\\obj\\",
+        "outputPath": "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rustam\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -81,14 +81,14 @@
         }
       }
     },
-    "E:\\ЭФ 301\\Рустам\\CinemaApp\\Cinema\\Cinema.Infrastructure\\Cinema.Infrastructure.csproj": {
+    "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Infrastructure\\Cinema.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ЭФ 301\\Рустам\\CinemaApp\\Cinema\\Cinema.Infrastructure\\Cinema.Infrastructure.csproj",
+        "projectUniqueName": "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Infrastructure\\Cinema.Infrastructure.csproj",
         "projectName": "Cinema.Infrastructure",
-        "projectPath": "E:\\ЭФ 301\\Рустам\\CinemaApp\\Cinema\\Cinema.Infrastructure\\Cinema.Infrastructure.csproj",
+        "projectPath": "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Infrastructure\\Cinema.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Rustam\\.nuget\\packages\\",
-        "outputPath": "E:\\ЭФ 301\\Рустам\\CinemaApp\\Cinema\\Cinema.Infrastructure\\obj\\",
+        "outputPath": "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rustam\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -106,11 +106,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\ЭФ 301\\Рустам\\CinemaApp\\Cinema\\Cinema.Data\\Cinema.Data.csproj": {
-                "projectPath": "E:\\ЭФ 301\\Рустам\\CinemaApp\\Cinema\\Cinema.Data\\Cinema.Data.csproj"
+              "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Data\\Cinema.Data.csproj": {
+                "projectPath": "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Data\\Cinema.Data.csproj"
               },
-              "E:\\ЭФ 301\\Рустам\\CinemaApp\\Cinema\\Cinema.Service\\Cinema.Service.csproj": {
-                "projectPath": "E:\\ЭФ 301\\Рустам\\CinemaApp\\Cinema\\Cinema.Service\\Cinema.Service.csproj"
+              "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Service\\Cinema.Service.csproj": {
+                "projectPath": "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Service\\Cinema.Service.csproj"
               }
             }
           }
@@ -165,14 +165,14 @@
         }
       }
     },
-    "E:\\ЭФ 301\\Рустам\\CinemaApp\\Cinema\\Cinema.Service\\Cinema.Service.csproj": {
+    "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Service\\Cinema.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ЭФ 301\\Рустам\\CinemaApp\\Cinema\\Cinema.Service\\Cinema.Service.csproj",
+        "projectUniqueName": "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Service\\Cinema.Service.csproj",
         "projectName": "Cinema.Service",
-        "projectPath": "E:\\ЭФ 301\\Рустам\\CinemaApp\\Cinema\\Cinema.Service\\Cinema.Service.csproj",
+        "projectPath": "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Service\\Cinema.Service.csproj",
         "packagesPath": "C:\\Users\\Rustam\\.nuget\\packages\\",
-        "outputPath": "E:\\ЭФ 301\\Рустам\\CinemaApp\\Cinema\\Cinema.Service\\obj\\",
+        "outputPath": "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rustam\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -190,8 +190,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\ЭФ 301\\Рустам\\CinemaApp\\Cinema\\Cinema.Data\\Cinema.Data.csproj": {
-                "projectPath": "E:\\ЭФ 301\\Рустам\\CinemaApp\\Cinema\\Cinema.Data\\Cinema.Data.csproj"
+              "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Data\\Cinema.Data.csproj": {
+                "projectPath": "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Data\\Cinema.Data.csproj"
               }
             }
           }

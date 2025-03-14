@@ -2114,11 +2114,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ЭФ 301\\Рустам\\CinemaApp\\Cinema\\Cinema\\Cinema.csproj",
+      "projectUniqueName": "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema\\Cinema.csproj",
       "projectName": "Cinema",
-      "projectPath": "E:\\ЭФ 301\\Рустам\\CinemaApp\\Cinema\\Cinema\\Cinema.csproj",
+      "projectPath": "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema\\Cinema.csproj",
       "packagesPath": "C:\\Users\\Rustam\\.nuget\\packages\\",
-      "outputPath": "E:\\ЭФ 301\\Рустам\\CinemaApp\\Cinema\\Cinema\\obj\\",
+      "outputPath": "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rustam\\AppData\\Roaming\\NuGet\\NuGet.Config",

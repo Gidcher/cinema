@@ -2,7 +2,8 @@
 
 public class Ticket : BaseModel
 {
-    public Session Session { get; set; } = null!;
-    public HallSeats HallSeats { get; set; } = null!;
-    public Price Price { get; set; } = null!;
+    public Session Session { get; set; }
+    public Seat Seat { get; set; }
+    public User User { get; set; }
+    public decimal FinalPrice { get; set; }
 }

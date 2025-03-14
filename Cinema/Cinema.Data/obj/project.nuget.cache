@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NLcqGVEc8V4=",
+  "dgSpecHash": "jQsiuxVJHBY=",
   "success": true,
-  "projectFilePath": "E:\\ЭФ 301\\Рустам\\CinemaApp\\Cinema\\Cinema.Data\\Cinema.Data.csproj",
+  "projectFilePath": "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Data\\Cinema.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rustam\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Rustam\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
