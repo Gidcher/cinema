@@ -2182,38 +2182,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rustam\\.nuget\\packages\\": {}
+    "C:\\Users\\acer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Infrastructure\\Cinema.Infrastructure.csproj",
+      "projectUniqueName": "D:\\Системные папки\\Рабочий стол\\cinema\\Cinema\\Cinema.Infrastructure\\Cinema.Infrastructure.csproj",
       "projectName": "Cinema.Infrastructure",
-      "projectPath": "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Infrastructure\\Cinema.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\Rustam\\.nuget\\packages\\",
-      "outputPath": "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Infrastructure\\obj\\",
+      "projectPath": "D:\\Системные папки\\Рабочий стол\\cinema\\Cinema\\Cinema.Infrastructure\\Cinema.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+      "outputPath": "D:\\Системные папки\\Рабочий стол\\cinema\\Cinema\\Cinema.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Rustam\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Data\\Cinema.Data.csproj": {
-              "projectPath": "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Data\\Cinema.Data.csproj"
+            "D:\\Системные папки\\Рабочий стол\\cinema\\Cinema\\Cinema.Data\\Cinema.Data.csproj": {
+              "projectPath": "D:\\Системные папки\\Рабочий стол\\cinema\\Cinema\\Cinema.Data\\Cinema.Data.csproj"
             },
-            "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Service\\Cinema.Service.csproj": {
-              "projectPath": "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Service\\Cinema.Service.csproj"
+            "D:\\Системные папки\\Рабочий стол\\cinema\\Cinema\\Cinema.Service\\Cinema.Service.csproj": {
+              "projectPath": "D:\\Системные папки\\Рабочий стол\\cinema\\Cinema\\Cinema.Service\\Cinema.Service.csproj"
             }
           }
         }
@@ -2264,7 +2261,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\acer\\.dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
