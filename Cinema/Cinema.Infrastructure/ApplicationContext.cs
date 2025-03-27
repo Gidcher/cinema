@@ -5,12 +5,12 @@ namespace Cinema.Infrastructure;
 
 public class ApplicationContext : DbContext
 {
-    public DbSet<Hall> Halls { get; private set; }
-    public DbSet<HallSeats> Seats { get; private set; }
     public DbSet<Movie> Movies { get; private set; }
-    public DbSet<Price> Prices { get; private set; }
+    public DbSet<Hall> Halls { get; private set; }
+    public DbSet<Seat> Seats { get; private set; }
     public DbSet<Session> Sessions { get; private set; }
     public DbSet<Ticket> Tickets { get; private set; }
+    public DbSet<User> Users { get; private set; }
     
     /*
     public ApplicationContext(DbContextOptions<ApplicationContext> options)
