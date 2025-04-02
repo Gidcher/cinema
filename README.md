@@ -1,6 +1,6 @@
 ### Описание таблицы сущностей  
 
-![Схема сущностей](https://github.com/Gidcher/cinema/blob/entity/scheme.png)
+![Схема сущностей](https://github.com/Gidcher/cinema/blob/entity/scheme.png](https://github.com/Gidcher/cinema/blob/feature/entity/scheme.png)
 
 #### 📽️ **Фильм** (Movie) 
 Хранит информацию о фильмах, доступных в кинотеатре.  
