@@ -460,24 +460,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\acer\\.nuget\\packages\\": {}
+    "C:\\Users\\Rustam\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Системные папки\\Рабочий стол\\cinema\\Cinema\\Cinema.Api\\Cinema.Api.csproj",
+      "projectUniqueName": "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Api\\Cinema.Api.csproj",
       "projectName": "Cinema.Api",
-      "projectPath": "D:\\Системные папки\\Рабочий стол\\cinema\\Cinema\\Cinema.Api\\Cinema.Api.csproj",
-      "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-      "outputPath": "D:\\Системные папки\\Рабочий стол\\cinema\\Cinema\\Cinema.Api\\obj\\",
+      "projectPath": "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Api\\Cinema.Api.csproj",
+      "packagesPath": "C:\\Users\\Rustam\\.nuget\\packages\\",
+      "outputPath": "E:\\EF_301\\Rustam\\cinema\\Cinema\\Cinema.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Rustam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -529,7 +532,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\acer\\.dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -25,8 +25,6 @@ public class TicketProvider : ITicketProvider
     {
         return await _applicationContext.Tickets
             .Include(t => t.Session)
-            .Include(t => t.HallSeats)
-            .Include(t => t.Price)
             .FirstOrDefaultAsync(t => t.Id == id, cancellationToken).ConfigureAwait(false);
 
     }
@@ -50,8 +48,6 @@ public class TicketProvider : ITicketProvider
     {
         return await _applicationContext.Tickets
             .Include(t => t.Session)
-            .Include(t => t.HallSeats)
-            .Include(t => t.Price)
             .ToListAsync(cancellationToken: cancellationToken);
 
     }

@@ -15,3 +15,23 @@ E:\ЭФ 301\Рустам\Cinema\Cinema.Infrastructure\obj\Debug\net8.0\Cinema.In
 E:\ЭФ 301\Рустам\Cinema\Cinema.Infrastructure\obj\Debug\net8.0\ref\Cinema.Infrastructure.dll
 E:\ЭФ 301\Рустам\Cinema\Cinema.Infrastructure\bin\Debug\net8.0\Cinema.Infrastructure.runtimeconfig.json
 E:\ЭФ 301\Рустам\Cinema\Cinema.Infrastructure\obj\Debug\net8.0\Cinema.Infrastructure.genruntimeconfig.cache
+E:\EF_301\Rustam\cinema\Cinema\Cinema.Infrastructure\bin\Debug\net8.0\Cinema.Infrastructure.deps.json
+E:\EF_301\Rustam\cinema\Cinema\Cinema.Infrastructure\bin\Debug\net8.0\Cinema.Infrastructure.runtimeconfig.json
+E:\EF_301\Rustam\cinema\Cinema\Cinema.Infrastructure\bin\Debug\net8.0\Cinema.Infrastructure.dll
+E:\EF_301\Rustam\cinema\Cinema\Cinema.Infrastructure\bin\Debug\net8.0\Cinema.Infrastructure.pdb
+E:\EF_301\Rustam\cinema\Cinema\Cinema.Infrastructure\bin\Debug\net8.0\Cinema.Data.dll
+E:\EF_301\Rustam\cinema\Cinema\Cinema.Infrastructure\bin\Debug\net8.0\Cinema.Service.dll
+E:\EF_301\Rustam\cinema\Cinema\Cinema.Infrastructure\bin\Debug\net8.0\Cinema.Data.pdb
+E:\EF_301\Rustam\cinema\Cinema\Cinema.Infrastructure\bin\Debug\net8.0\Cinema.Service.pdb
+E:\EF_301\Rustam\cinema\Cinema\Cinema.Infrastructure\obj\Debug\net8.0\Cinema.Infrastructure.csproj.AssemblyReference.cache
+E:\EF_301\Rustam\cinema\Cinema\Cinema.Infrastructure\obj\Debug\net8.0\Cinema.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\EF_301\Rustam\cinema\Cinema\Cinema.Infrastructure\obj\Debug\net8.0\Cinema.Infrastructure.AssemblyInfoInputs.cache
+E:\EF_301\Rustam\cinema\Cinema\Cinema.Infrastructure\obj\Debug\net8.0\Cinema.Infrastructure.AssemblyInfo.cs
+E:\EF_301\Rustam\cinema\Cinema\Cinema.Infrastructure\obj\Debug\net8.0\Cinema.Infrastructure.csproj.CoreCompileInputs.cache
+E:\EF_301\Rustam\cinema\Cinema\Cinema.Infrastructure\obj\Debug\net8.0\Cinema.Infrastructure.sourcelink.json
+E:\EF_301\Rustam\cinema\Cinema\Cinema.Infrastructure\obj\Debug\net8.0\Cinema.I.121B45F8.Up2Date
+E:\EF_301\Rustam\cinema\Cinema\Cinema.Infrastructure\obj\Debug\net8.0\Cinema.Infrastructure.dll
+E:\EF_301\Rustam\cinema\Cinema\Cinema.Infrastructure\obj\Debug\net8.0\refint\Cinema.Infrastructure.dll
+E:\EF_301\Rustam\cinema\Cinema\Cinema.Infrastructure\obj\Debug\net8.0\Cinema.Infrastructure.pdb
+E:\EF_301\Rustam\cinema\Cinema\Cinema.Infrastructure\obj\Debug\net8.0\Cinema.Infrastructure.genruntimeconfig.cache
+E:\EF_301\Rustam\cinema\Cinema\Cinema.Infrastructure\obj\Debug\net8.0\ref\Cinema.Infrastructure.dll

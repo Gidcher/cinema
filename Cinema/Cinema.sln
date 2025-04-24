@@ -12,8 +12,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema.Infrastructure", "Ci
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema.Api", "Cinema.Api\Cinema.Api.csproj", "{DF55931F-AECB-4994-8D3F-C2454E3295E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema.DependencyInjection", "Cinema.DependencyInjection\Cinema.DependencyInjection.csproj", "{B5881EAB-40C9-4C6F-8BB3-076A4F63A389}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,14 +38,9 @@ Global
 		{DF55931F-AECB-4994-8D3F-C2454E3295E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF55931F-AECB-4994-8D3F-C2454E3295E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF55931F-AECB-4994-8D3F-C2454E3295E1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B5881EAB-40C9-4C6F-8BB3-076A4F63A389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B5881EAB-40C9-4C6F-8BB3-076A4F63A389}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B5881EAB-40C9-4C6F-8BB3-076A4F63A389}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B5881EAB-40C9-4C6F-8BB3-076A4F63A389}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1A76727B-5D43-4C4C-A1DE-EC5516B26EB9} = {757B032F-2E5B-4935-8653-E52134398893}
 		{DF55931F-AECB-4994-8D3F-C2454E3295E1} = {757B032F-2E5B-4935-8653-E52134398893}
-		{B5881EAB-40C9-4C6F-8BB3-076A4F63A389} = {757B032F-2E5B-4935-8653-E52134398893}
 	EndGlobalSection
 EndGlobal
