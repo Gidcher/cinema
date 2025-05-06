@@ -94,10 +94,8 @@ namespace Cinema.Infrastructure.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uuid", nullable: false),
-                    MovieId = table.Column<int>(type: "integer", nullable: false),
-                    MovieId1 = table.Column<Guid>(type: "uuid", nullable: false),
-                    HallId = table.Column<int>(type: "integer", nullable: false),
-                    HallId1 = table.Column<Guid>(type: "uuid", nullable: false),
+                    MovieId = table.Column<Guid>(type: "uuid", nullable: false),
+                    HallId = table.Column<Guid>(type: "uuid", nullable: false),
                     DateTime = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     Format = table.Column<string>(type: "text", nullable: false),
                     DataCreate = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
@@ -107,14 +105,14 @@ namespace Cinema.Infrastructure.Migrations
                 {
                     table.PrimaryKey("PK_Sessions", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Sessions_Halls_HallId1",
-                        column: x => x.HallId1,
+                        name: "FK_Sessions_Halls_HallId",
+                        column: x => x.HallId,
                         principalTable: "Halls",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Sessions_Movies_MovieId1",
-                        column: x => x.MovieId1,
+                        name: "FK_Sessions_Movies_MovieId",
+                        column: x => x.MovieId,
                         principalTable: "Movies",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
@@ -125,12 +123,9 @@ namespace Cinema.Infrastructure.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uuid", nullable: false),
-                    SessionId = table.Column<int>(type: "integer", nullable: false),
-                    SessionId1 = table.Column<Guid>(type: "uuid", nullable: false),
-                    SeatId = table.Column<int>(type: "integer", nullable: false),
-                    SeatId1 = table.Column<Guid>(type: "uuid", nullable: false),
-                    UserId = table.Column<int>(type: "integer", nullable: false),
-                    UserId1 = table.Column<Guid>(type: "uuid", nullable: false),
+                    SessionId = table.Column<Guid>(type: "uuid", nullable: false),
+                    SeatId = table.Column<Guid>(type: "uuid", nullable: false),
+                    UserId = table.Column<Guid>(type: "uuid", nullable: false),
                     FinalPrice = table.Column<decimal>(type: "numeric", nullable: false),
                     DataCreate = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     DataUpdate = table.Column<DateTime>(type: "timestamp with time zone", nullable: false)
@@ -139,20 +134,20 @@ namespace Cinema.Infrastructure.Migrations
                 {
                     table.PrimaryKey("PK_Tickets", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Tickets_Seats_SeatId1",
-                        column: x => x.SeatId1,
+                        name: "FK_Tickets_Seats_SeatId",
+                        column: x => x.SeatId,
                         principalTable: "Seats",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Tickets_Sessions_SessionId1",
-                        column: x => x.SessionId1,
+                        name: "FK_Tickets_Sessions_SessionId",
+                        column: x => x.SessionId,
                         principalTable: "Sessions",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Tickets_Users_UserId1",
-                        column: x => x.UserId1,
+                        name: "FK_Tickets_Users_UserId",
+                        column: x => x.UserId,
                         principalTable: "Users",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
@@ -164,29 +159,29 @@ namespace Cinema.Infrastructure.Migrations
                 column: "HallId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Sessions_HallId1",
+                name: "IX_Sessions_HallId",
                 table: "Sessions",
-                column: "HallId1");
+                column: "HallId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Sessions_MovieId1",
+                name: "IX_Sessions_MovieId",
                 table: "Sessions",
-                column: "MovieId1");
+                column: "MovieId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Tickets_SeatId1",
+                name: "IX_Tickets_SeatId",
                 table: "Tickets",
-                column: "SeatId1");
+                column: "SeatId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Tickets_SessionId1",
+                name: "IX_Tickets_SessionId",
                 table: "Tickets",
-                column: "SessionId1");
+                column: "SessionId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Tickets_UserId1",
+                name: "IX_Tickets_UserId",
                 table: "Tickets",
-                column: "UserId1");
+                column: "UserId");
         }
 
         /// <inheritdoc />

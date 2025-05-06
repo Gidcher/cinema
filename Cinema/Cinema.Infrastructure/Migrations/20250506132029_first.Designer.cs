@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Cinema.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20250424061215_first")]
+    [Migration("20250506132029_first")]
     partial class first
     {
         /// <inheritdoc />
@@ -158,23 +158,17 @@ namespace Cinema.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int>("HallId")
-                        .HasColumnType("integer");
-
-                    b.Property<Guid>("HallId1")
+                    b.Property<Guid>("HallId")
                         .HasColumnType("uuid");
 
-                    b.Property<int>("MovieId")
-                        .HasColumnType("integer");
-
-                    b.Property<Guid>("MovieId1")
+                    b.Property<Guid>("MovieId")
                         .HasColumnType("uuid");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("HallId1");
+                    b.HasIndex("HallId");
 
-                    b.HasIndex("MovieId1");
+                    b.HasIndex("MovieId");
 
                     b.ToTable("Sessions");
                 });
@@ -194,31 +188,22 @@ namespace Cinema.Infrastructure.Migrations
                     b.Property<decimal>("FinalPrice")
                         .HasColumnType("numeric");
 
-                    b.Property<int>("SeatId")
-                        .HasColumnType("integer");
-
-                    b.Property<Guid>("SeatId1")
+                    b.Property<Guid>("SeatId")
                         .HasColumnType("uuid");
 
-                    b.Property<int>("SessionId")
-                        .HasColumnType("integer");
-
-                    b.Property<Guid>("SessionId1")
+                    b.Property<Guid>("SessionId")
                         .HasColumnType("uuid");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("integer");
-
-                    b.Property<Guid>("UserId1")
+                    b.Property<Guid>("UserId")
                         .HasColumnType("uuid");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("SeatId1");
+                    b.HasIndex("SeatId");
 
-                    b.HasIndex("SessionId1");
+                    b.HasIndex("SessionId");
 
-                    b.HasIndex("UserId1");
+                    b.HasIndex("UserId");
 
                     b.ToTable("Tickets");
                 });
@@ -267,13 +252,13 @@ namespace Cinema.Infrastructure.Migrations
                 {
                     b.HasOne("Cinema.Data.Hall", "Hall")
                         .WithMany("Sessions")
-                        .HasForeignKey("HallId1")
+                        .HasForeignKey("HallId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("Cinema.Data.Movie", "Movie")
                         .WithMany("Sessions")
-                        .HasForeignKey("MovieId1")
+                        .HasForeignKey("MovieId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -286,19 +271,19 @@ namespace Cinema.Infrastructure.Migrations
                 {
                     b.HasOne("Cinema.Data.Seat", "Seat")
                         .WithMany()
-                        .HasForeignKey("SeatId1")
+                        .HasForeignKey("SeatId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("Cinema.Data.Session", "Session")
                         .WithMany("Tickets")
-                        .HasForeignKey("SessionId1")
+                        .HasForeignKey("SessionId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("Cinema.Data.User", "User")
                         .WithMany("Tickets")
-                        .HasForeignKey("UserId1")
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
