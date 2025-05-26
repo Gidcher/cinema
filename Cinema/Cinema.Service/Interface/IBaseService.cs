@@ -11,4 +11,6 @@ public interface IBaseService<TEntityDb, TEntityRequest>
     Task<TEntityDb?> GetAsync(Guid id, CancellationToken cancellationToken);
     Task<TEntityDb> UpdateAsync(TEntityRequest entityRequest, CancellationToken cancellationToken);
     Task<List<TEntityDb>> GetAllAsync(CancellationToken cancellationToken);
+    Task<bool> DeleteAsync(Guid id, CancellationToken cancellationToken);
+
 }

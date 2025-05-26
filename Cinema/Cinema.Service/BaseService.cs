@@ -51,4 +51,14 @@ public class BaseService<TEntityDb,TEntityRequest,IEntityProvaider>:IBaseService
         var all = _provider.GetAllAsync(new CancellationToken());
         return await all;
     }
+    
+    public virtual async Task<bool> DeleteAsync(Guid id, CancellationToken cancellationToken)
+    {
+        var entity = await GetAsync(id, cancellationToken);
+        if (entity == null)
+            return false;
+
+        return await _provider.DeleteAsync(id, cancellationToken);
+    }
+
 }

@@ -33,12 +33,15 @@ public class MovieProvider : IMovieProvider
             .FirstOrDefaultAsync(m => m.Id == id, cancellationToken).ConfigureAwait(false);
     }
 
-    public async Task DeleteAsync(Guid id, CancellationToken cancellationToken)
+    public async Task<bool> DeleteAsync(Guid id, CancellationToken cancellationToken)
     {
         var movie = await FindAsync(id, cancellationToken);
-        ArgumentNullException.ThrowIfNull(movie);
-        _applicationContext.Remove(movie);
+        if (movie == null)
+            return false;
+
+        _applicationContext.Movies.Remove(movie);
         await _applicationContext.SaveChangesAsync(cancellationToken);
+        return true;
     }
 
     public async Task<Movie> UpdateAsync(Movie entity, CancellationToken cancellationToken)
@@ -59,4 +62,6 @@ public class MovieProvider : IMovieProvider
             .Include(m => m.Sessions)
             .ToListAsync(cancellationToken: cancellationToken);
     }
+    
+    
 }
